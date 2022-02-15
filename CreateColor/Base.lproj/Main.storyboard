@@ -85,21 +85,21 @@
                                                 <rect key="frame" x="-2" y="0.0" width="248" height="31"/>
                                                 <color key="minimumTrackTintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <connections>
-                                                    <action selector="allColorSlider" destination="BYZ-38-t0r" eventType="valueChanged" id="qxR-nq-DKW"/>
+                                                    <action selector="getColor:" destination="BYZ-38-t0r" eventType="valueChanged" id="BVV-g7-xnd"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="me4-9F-OsV">
                                                 <rect key="frame" x="-2" y="38" width="248" height="31"/>
                                                 <color key="minimumTrackTintColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <connections>
-                                                    <action selector="allColorSlider" destination="BYZ-38-t0r" eventType="valueChanged" id="OtK-Ew-JzD"/>
+                                                    <action selector="getColor:" destination="BYZ-38-t0r" eventType="valueChanged" id="S6R-sO-CZu"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="aAB-BH-1Bb">
                                                 <rect key="frame" x="-2" y="76" width="248" height="31"/>
                                                 <color key="minimumTrackTintColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <connections>
-                                                    <action selector="allColorSlider" destination="BYZ-38-t0r" eventType="valueChanged" id="g1r-tJ-ikG"/>
+                                                    <action selector="getColor:" destination="BYZ-38-t0r" eventType="valueChanged" id="UbV-xb-uCl"/>
                                                 </connections>
                                             </slider>
                                         </subviews>
@@ -111,11 +111,9 @@
                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ozF-On-nV0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="1L9-Wo-Kg8"/>
-                            <constraint firstItem="ozF-On-nV0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="82S-uP-gvH"/>
                             <constraint firstItem="Udm-9v-eBi" firstAttribute="top" secondItem="ozF-On-nV0" secondAttribute="bottom" constant="60" id="9Ch-Hs-2Br"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Udm-9v-eBi" secondAttribute="trailing" constant="20" id="Kyo-Tb-1Ue"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ozF-On-nV0" secondAttribute="trailing" constant="20" id="O8h-fG-x00"/>
-                            <constraint firstItem="Udm-9v-eBi" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="OW1-kZ-dvu"/>
                             <constraint firstItem="Udm-9v-eBi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yJV-Q7-za0"/>
                             <constraint firstItem="ozF-On-nV0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="23" id="yq0-TN-fgZ"/>
                         </constraints>
